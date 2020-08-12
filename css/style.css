@@ -1,0 +1,330 @@
+
+body {
+	background: #b191d9;
+	 display: block;
+	 margin: auto;
+	 height: 100%;
+}
+
+ .logo {
+	display: block;
+	margin: auto;
+	width: 150px;
+	transition: 1.5s;
+
+
+}
+
+ .logo:hover {
+	
+	width: 165px;
+	transition: 1.5s;
+	display: block;
+	margin: auto;
+	
+}
+
+header .h1 {
+	display: block;
+	text-decoration: none;
+	text-align: center;
+	font-size: 50px;
+	color: #d40647;
+	transition: 1.5s;
+	/* Лого */
+}
+header .h1:hover {
+	display: block;
+	text-decoration: none;
+	text-align: center;
+	font-size: 45px;
+	color: #d406c6;
+	transition: 1.5s;
+	/* Лого */
+}
+
+
+
+header .h2 {
+	text-align: center;
+	font-size: 35px;
+	/* Лого */
+}
+
+header a.log {
+	float: right;
+	font-size: 20px;
+	text-decoration: none;
+	color: #d94100;
+	transition: 1.5s;
+	/* Регистрация, вход */
+
+}
+
+header a.log:hover {
+	color: #ff8800;
+	transition: 1.5s;
+	/* Лого */
+}
+
+header a.menu {
+	text-decoration: none;
+	float: left;
+	font-size: 30px;
+	padding-left: 35px;
+	color: #d94100;
+	transition: 1.5s;
+	
+
+	/* Меню */
+
+}
+
+header a.menu:hover {
+	color: #ff8800;
+	transition: 1.5s;
+	/* Меню */
+}
+
+header {
+	margin: auto;
+	width: 40%;
+
+}
+
+
+
+
+div.pysto {
+	text-decoration: none;
+	font-size: 30px;
+	display: block;
+	text-align: center;
+	/* Пустая страница */
+}
+
+div.pysto a.pysto {
+	text-decoration: none;
+	color: #d94100;
+	/* Пустая страница */
+}
+div.pysto a.pysto:hover {
+	color: #ff8800;
+	/* Пустая страница */
+}
+
+
+
+
+
+
+div.inf {
+	text-align: center;
+	font-size: 20px;
+	font-family: sans-serif;
+	background: #e0dda2;
+	/* Контент - обо мне. */
+}
+
+.inf .name {
+	font-weight: bold;
+	/* Жирное выделение в контенте обо мне */
+}
+
+.inf img.myphoto {
+	width: 800px;
+	transition: 0.8s;  /* Мое фото, делает увеличение при наведении */
+}
+
+.inf img.myphoto:hover {
+	width: 850px;
+	transition: 0.8s; }  /* Мое фото, делает увеличение при наведении */
+
+
+
+
+
+
+div.stat {
+
+	text-align: center;
+	font-style: 20px;
+	font-family: sans-serif;
+	background: #ccfcce;
+	/* контент - космос */
+}
+
+div.stat img.stat {
+	width: 680px;
+	transition: 0.8s;
+	/* контент, фото - космос */
+}
+
+div.stat img.stat:hover {
+	width: 690px;
+	transition: 0.8s;
+	/* контент, фото - космос */
+}
+
+
+div.stat a.ikor {
+	text-decoration: none;
+	font-size: 15px;
+	display: block;
+	text-align: center;
+	color: #d94100;
+	transition: 1.5s;
+	/* Якоря космос */
+}
+
+div.stat a.ikor:hover {
+	color: #ff8800;
+  transition: 1.5s;
+ 	display: block;
+	/* Якоря космос */
+}
+
+
+div.stat p {
+	font-size: 20px;
+	font-family: sans-serif;
+}
+
+div.stat img {
+	width: 680px;
+}
+
+
+
+
+/* ЗДЕСЬ НАЧИНАЕТСЯ СТРАНИЦА ВХОДА */
+
+.vhod {
+text-align: center;
+font-size: 45px;
+	
+}
+
+a.reg {
+	text-decoration: none;
+	text-align: center;
+	display: block;
+	font-size: 16px;
+	color: #d94100;
+	transition: 1.5s;
+}
+a.reg:hover {
+	color: #ff8800;
+	transition: 1.5s;
+}
+
+
+form.vhod input.vhod1 {
+	background: #d94100;
+	transition: 1s;
+}
+
+form.vhod input.vhod1:hover {
+	background: #ff8800;
+	transition: 1s;
+}
+/* ЗДЕСЬ КОНЧАЕТСЯ СТРАНИЦА ВХОДА */
+
+
+
+/* ЗДЕСЬ НАЧИНАЕТСЯ СТРАНИЦА РЕГИСТРАЦИИ */
+
+#reg {
+	text-align: center;
+	}
+#reg h3 {
+	font-size: 20px;
+}
+#reg h1 {
+	font-size: 45px;
+}
+
+#reg input.reg {
+	background: #d94100;
+	transition: 1s;
+}
+
+#reg input.reg:hover {
+	background: #ff8800;
+	transition: 1s;
+}
+/* ЗДЕСЬ КОНЧАЕТСЯ СТРАНИЦА РЕГИСТРАЦИИ */
+
+
+
+a.ikor3 {
+	text-decoration: none;
+	font-size: 25px;
+	display: block;
+	text-align: center;
+	color: #d94100;
+	transition: 1.5s;
+	/* Якор вверх */
+}
+a.ikor3:hover {
+	color: #ff8800;
+  transition: 1.5s;
+ 	display: block;
+	/* Якорь вверх */
+}
+
+/* ЗДЕСЬ НАЧИНАЕТ СТРАНИЦА ТАБЛИЦЫ */
+	
+
+
+
+table {
+	margin: auto;
+border-collapse: collapse;
+font-size: 35px;
+}
+
+td {
+	text-align: center; /* Выравниваем текст по центру ячейки */
+	border: 5px solid #000; 
+	border-collapse: collapse;
+}
+
+#gr {
+	text-align: center;
+}
+
+#kir {
+	background: #f06705;
+}
+
+#ir {
+	background: #cd12de;
+}
+
+#vas {
+	background: #2a43bf;
+}
+
+.graf {
+	text-align: center;
+}
+
+a.glav {
+	text-decoration: none;
+	text-align: center;
+	display: block;
+	font-size: 25px;
+	color: #d94100;
+	transition: 1.5s;
+	background: #2a43bf;
+	
+}
+a.glav:hover {
+	color: #ff8800;
+	transition: 1.5s;
+	background: none;
+}
+
+
+/* ЗДЕСЬ КОНЧАЕТСЯ СТРАНИЦА ТАБЛИЦЫ */
